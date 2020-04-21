@@ -1,0 +1,316 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    height: 90vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+    width: 100vw;
+    height: 15%;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.imgFruitVegetable {
+    width: 25%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1,
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -10px
+}
+
+h4 {
+    margin: 0 30px 0 30px;
+}
+
+.urunDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.04rem solid black;
+    width: 70%;
+
+}
+
+.sectionProductListe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.vegetableSection,
+.fruitSection {
+    width: 70%;
+}
+
+.shoppingArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vegetableSection,
+.fruitSection,
+.separation,
+.shoppingArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.separation {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    justify-content: center;
+}
+
+.separation>img {
+    opacity: 0.6;
+    width: 100%;
+    margin: 20px 0 5px 0;
+
+}
+
+.ListeArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+
+.fruitListe,
+.vegetableListe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.vegetablePriceListe {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: min-content;
+    width: 10%;
+}
+
+.price {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 2px 10;
+    margin-bottom: 20px;
+}
+
+.vegDiv {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    align-items: center;
+    width: 100%;
+}
+
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    padding: 6px;
+    border: 0.06rem solid blue;
+    border-radius: 5px;
+    margin: 2% 15%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+
+    width: 100%;
+    background-color: rgb(235, 235, 141);
+    color: black;
+
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+
+
+.myshoppinglist {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80%;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 35px;
+    border: 0.06rem solid blue;
+}
+
+.myshoppinglist>span {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.eklenecekListe {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 3px;
+    align-self: center;
+}
+
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    list-style: none;
+    margin-left: 5px;
+    padding: 5px;
+    width:100%;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#quantity {
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 13px;
+    padding: 5px;
+}
+
+#shoppingDate {
+    width: 80%;
+    border-radius: 5px;
+    margin-right: 13px;
+    padding: 5px;
+}
+
+#labelquantity {
+    width: 30%;
+}
+
+.nameProduct {
+    width: 30%;
+    margin-left: 8px;
+}
+
+#itemPrice {
+    width: 30%;
+}
+
+.htmljs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+#rermoveArticle {
+    width: 20%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.alisVerisDiv {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-bottom: 14px;
+    border-bottom: 0.04rem solid blue;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.sepetTutarDiv {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    border-top: 0.04rem solid blue;
+    margin-top: 15px;
+    width: 85%;
+}
+
+.sepetTutarDiv {
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.inpTotal {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    width: 60%;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin: 15px 0px 0 30%;
+    padding: 4px;
+}
+
+.total-amount {
+    display: flex;
+    flex-direction: column;
+    margin-left: 59%;
+    font-weight: bold;
+    width: 20%;
+}
